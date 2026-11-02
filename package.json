@@ -1,0 +1,18 @@
+{
+  "name": "nsbm-comsec-timetable",
+  "version": "1.0.0",
+  "description": "Automated NSBM Computer Security timetable parser and Proton Calendar (.ics) feed generator",
+  "type": "module",
+  "scripts": {
+    "sync": "bun run src/index.ts",
+    "test": "bun test",
+    "typecheck": "bun x tsc --noEmit"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.6.0"
+  }
+}
