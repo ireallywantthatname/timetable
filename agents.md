@@ -1,0 +1,6 @@
+- Apply the unslop skill to all responses and documentation.
+- Keep implementations minimal. Build only what the task requires.
+- Do not add comments to code or configuration files.
+- Remove all comments when editing or creating files.
+- Do not add web pages, dashboards, or unrequested export formats.
+- Target Bun and TypeScript.
